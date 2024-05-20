@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem2 {
 class Solution {
     public int maxProfit(int[] prices) {
 
@@ -15,4 +16,5 @@ class Solution {
         }
         return maxProfit;
     }
+}
 }
