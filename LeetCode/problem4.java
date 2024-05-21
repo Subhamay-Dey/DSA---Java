@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem4 {
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
         
@@ -18,4 +19,5 @@ class Solution {
         }
         return high;
     }
+}
 }

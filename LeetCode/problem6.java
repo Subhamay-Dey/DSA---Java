@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem6 {
 class Solution {
     public boolean isPowerOfTwo(int n) {
     
@@ -31,4 +32,5 @@ class Solution {
 
 
     }
+}
 }

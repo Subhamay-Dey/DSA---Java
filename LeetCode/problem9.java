@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem9 {
 class Solution {
     public int scoreOfString(String s) {
         
@@ -12,4 +13,5 @@ class Solution {
         }
         return total;
     }
+}
 }

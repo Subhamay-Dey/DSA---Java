@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem8 {
 class Solution {
     public int maxSubArray(int[] nums) {
         
@@ -28,4 +29,5 @@ class Solution {
         
         return maxSum;
     }
+}
 }

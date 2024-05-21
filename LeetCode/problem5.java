@@ -1,5 +1,6 @@
 package LeetCode;
 
+public class problem5 {
 class Solution {
     public void reverseString(char[] s) {
         
@@ -15,4 +16,5 @@ class Solution {
             end--;
         }
     }
+}
 }
