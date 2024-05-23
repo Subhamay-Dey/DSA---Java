@@ -1,7 +1,7 @@
 package BinaryTree;
 
-public class problem2 {
-    public class Binarytree {
+public class problem3 {
+    public class binarytree {
         static class Node {
             int data;
             Node left;
@@ -29,20 +29,20 @@ public class problem2 {
             }
         }
 
-        public static void preorder(Node root) {
+        public static void inorder(Node root) {
             if(root == null) {
                 return;
             }
+            inorder(root.left);
             System.out.println(root.data+" ");
-            preorder(root.left);
-            preorder(root.right);
+            inorder(root.right);
         }
     
     public static void main(String args[]) {
         int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
         BinaryBuildTree tree = new BinaryBuildTree();
         Node root = tree.buildTree(nodes);
-        preorder(root);
+        inorder(root);
     }
     }
 }
