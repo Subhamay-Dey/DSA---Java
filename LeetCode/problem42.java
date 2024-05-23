@@ -21,14 +21,12 @@ class Solution {
             size++;
             tail = tail.next;
         }
-
         tail.next = head;
 
         k = k % size;
-        if(size == k) return tail;
 
-        int index = size - k - 1;
-        int i = 0;
+        int index = size - k ;
+        int i = 1;
         ListNode prev = head;
         while(i < index) {
             prev = prev.next;
@@ -36,8 +34,7 @@ class Solution {
         }
         ListNode newhead = prev.next;
         prev.next = null;
-        tail.next = head;
-
+        
         return newhead;
     }
 }
