@@ -34,9 +34,9 @@ public class problem8 {
                 return 0;
             }
             int leftHeight = height(root.left);
-            int rightheight = height(root.right);
+            int rightHeight = height(root.right);
 
-            int myHeight = Math.max(leftHeight, rightheight) + 1;
+            int myHeight = Math.max(leftHeight, rightHeight) + 1;
 
             return myHeight;
         }
