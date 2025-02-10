@@ -18,6 +18,4 @@ public class Animal{
     Dog d=new Dog();
     d.display();
      }
-    } {
-    
-}
+    }
