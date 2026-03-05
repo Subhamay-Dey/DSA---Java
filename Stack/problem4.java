@@ -20,11 +20,11 @@ public class S400 {
         list.add(a);
     }
 
-    public int pop() {
+    public void pop() {
         if (isEmpty()) {
-            return -1;
+            return;
         }
-        return list.remove(list.size() - 1);
+        list.remove(list.size() - 1);
     }
 
     public int getMin() {
