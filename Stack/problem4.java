@@ -1,10 +1,13 @@
-import Java.util.Stack;
+package Stack;
 
-public class S400 {
+import java.util.Stack;
+import java.util.ArrayList;
+
+public class Problem4 {
 
     ArrayList<Integer> list;
 
-    public S400() {
+    public Problem4() {
         list = new ArrayList<>();
     }
 
@@ -13,10 +16,10 @@ public class S400 {
     }
 
     public boolean isEmpty() {
-        return list.size() === 0;
+        return list.size() == 0;
     }
 
-    public int push(int a) {
+    public void push(int a) {
         list.add(a);
     }
 
@@ -39,25 +42,24 @@ public class S400 {
         return min;
     }
 
-    public int size() {
-        return list.size();
-    }
+public int size() {
+    return list.size();
 }
-public class main {
-    public static void main(String[] args) {
-        S400 stack = new S400();
+
+public static void main(String[] args) {
+    Problem4 stack = new Problem4();
         stack.push(100);
         stack.push(200);
         stack.push(300);
         System.out.println(stack.top());
         System.out.println(stack.size());
         System.out.println(stack.getMin());
-        System.out.println(stack.pop());
+        stack.pop();
         System.out.println(stack.top());
         System.out.println(stack.size());
         System.out.println(stack.isEmpty());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
+        stack.pop();
+        stack.pop();
         System.out.println(stack.isEmpty());
         System.out.println(stack.size());
 
@@ -71,9 +73,9 @@ public class main {
         System.out.println(stack2.pop());
         System.out.println(stack2.peek());
         System.out.println(stack2.isEmpty());
-        System.out.println(stack2.pop());
-        System.out.println(stack2.pop());
+        stack2.pop();
+        stack2.pop();
         System.out.println(stack2.isEmpty());
-        System.out.println(stack2.size());
+            System.out.println(stack2.size());
+        }
     }
-}
