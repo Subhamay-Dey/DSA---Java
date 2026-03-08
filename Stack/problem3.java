@@ -1,7 +1,9 @@
+package Stack;
+
 import java.util.Stack;
 
 
-public class UnixPath {
+public class problem3 {
 
     public static String InputPath(String path) {
 
