@@ -1,8 +1,6 @@
 package Stack;
 
 import java.util.Stack;
-
-
 public class problem3 {
 
     public static String InputPath(String path) {
@@ -32,7 +30,6 @@ public class problem3 {
             result.append("/").append(dir);
         }
         return result.length() == 0 ? "/" : result.toString();
-
     }
 
     public static void main(String[] args) {
