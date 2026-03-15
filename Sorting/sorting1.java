@@ -19,14 +19,12 @@ public class sorting1 {
 
 	public static void main(String[] args) {
 		// Example usage
-		int[] arr = {5, 2, 8, 1};
+		int[] arr = {1, 9, 2, 5};
 		sortBy(arr, Integer::compare);
         System.out.println(java.util.Arrays.toString(arr));
 		// Print sorted array (if implemented)
 	}
 }
 
-//{2,5,1,8}
-//{2,1,5,8}
-//{1,2,5,8}
+//{-1,2,5,9}
 
